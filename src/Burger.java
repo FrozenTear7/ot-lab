@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Burger {
-    protected ArrayList<Ingredient> ingredients;
+    protected ArrayList<Ingredient> ingredients = new ArrayList<>();
     private Bread bread;
 
     public Burger() {
